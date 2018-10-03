@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/App_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#CC7799BB"
+        android:gravity="center"
+        android:text="爆弾解除アプリ"
+        android:textColor="@android:color/black"
+        android:textSize="36dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/start_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:text="START"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="create by Masayoshi Uchiyama" />
+    <TextView
+        android:id="@+id/sponsor_name1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Sound : Provided by 魔王魂" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/constant_quest_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#CC7799BB"
+        android:text="問題"
+        android:textColor="@android:color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/qr_location_hint_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#CC7799BB"
+        android:text="QRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありかQRコードのありか"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/qr_input_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:drawable/ic_menu_camera" />
+
+        <TextView
+            android:id="@+id/qr_quest_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#CC7799BB"
+            android:text="QRコード読み取り後，問題文が表示されます"
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/quest_answer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="10dp"
+        android:autoText="false"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="数字４桁で回答せよ"
+        android:inputType="phone"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/quest_answer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="回答する"
+        android:textSize="20dp" />
+
+</LinearLayout>
